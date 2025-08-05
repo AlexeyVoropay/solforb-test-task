@@ -1,53 +1,89 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\123\\source\\repos\\SolforbTestTask\\",
+  "WorkspaceRootPath": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|c:\\users\\123\\source\\repos\\solforbtesttask\\solforbtesttaskblazor\\components\\pages\\clientform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|solutionrelative:solforbtesttaskblazor\\components\\pages\\clientform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|c:\\users\\123\\source\\repos\\solforbtesttask\\solforbtesttaskblazor\\components\\pages\\clients.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|c:\\users\\123\\desktop\\projects\\solforb-test-task\\solforbtesttask\\solforbtesttaskblazor\\components\\pages\\clients.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|solutionrelative:solforbtesttaskblazor\\components\\pages\\clients.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|c:\\users\\123\\source\\repos\\solforbtesttask\\solforbtesttaskblazor\\components\\pages\\cars.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|solutionrelative:solforbtesttaskblazor\\components\\pages\\cars.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|c:\\users\\123\\desktop\\projects\\solforb-test-task\\solforbtesttask\\solforbtesttaskblazor\\components\\pages\\clientform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|solutionrelative:solforbtesttaskblazor\\components\\pages\\clientform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|c:\\users\\123\\source\\repos\\solforbtesttask\\solforbtesttaskblazor\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|solutionrelative:solforbtesttaskblazor\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79A6F8D4-445A-44A3-942D-5EB7F1740B41}|SolforbTestTask.Data\\SolforbTestTask.Data.csproj|c:\\users\\123\\source\\repos\\solforbtesttask\\solforbtesttask.data\\clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{79A6F8D4-445A-44A3-942D-5EB7F1740B41}|SolforbTestTask.Data\\SolforbTestTask.Data.csproj|c:\\users\\123\\desktop\\projects\\solforb-test-task\\solforbtesttask\\solforbtesttask.data\\clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79A6F8D4-445A-44A3-942D-5EB7F1740B41}|SolforbTestTask.Data\\SolforbTestTask.Data.csproj|solutionrelative:solforbtesttask.data\\clients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|c:\\users\\123\\source\\repos\\solforbtesttask\\solforbtesttaskblazor\\components\\pages\\starshipplainform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|solutionrelative:solforbtesttaskblazor\\components\\pages\\starshipplainform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|c:\\users\\123\\source\\repos\\solforbtesttask\\solforbtesttaskblazor\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|solutionrelative:solforbtesttaskblazor\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|c:\\users\\123\\source\\repos\\solforbtesttask\\solforbtesttaskblazor\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|solutionrelative:solforbtesttaskblazor\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|c:\\users\\123\\source\\repos\\solforbtesttask\\solforbtesttaskblazor\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|solutionrelative:solforbtesttaskblazor\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|c:\\users\\123\\source\\repos\\solforbtesttask\\solforbtesttaskblazor\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|c:\\users\\123\\desktop\\projects\\solforb-test-task\\solforbtesttask\\solforbtesttaskblazor\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|solutionrelative:solforbtesttaskblazor\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|c:\\users\\123\\source\\repos\\solforbtesttask\\solforbtesttaskblazor\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B5D7A86A-EFC2-4C7B-83EE-CB22BD964BBA}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\123\\desktop\\projects\\solforb-test-task\\solforbtesttask\\blazorapp1\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5D7A86A-EFC2-4C7B-83EE-CB22BD964BBA}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5D7A86A-EFC2-4C7B-83EE-CB22BD964BBA}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\123\\desktop\\projects\\solforb-test-task\\solforbtesttask\\blazorapp1\\components\\pages\\somecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5D7A86A-EFC2-4C7B-83EE-CB22BD964BBA}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\pages\\somecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5D7A86A-EFC2-4C7B-83EE-CB22BD964BBA}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\123\\desktop\\projects\\solforb-test-task\\solforbtesttask\\blazorapp1\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5D7A86A-EFC2-4C7B-83EE-CB22BD964BBA}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5D7A86A-EFC2-4C7B-83EE-CB22BD964BBA}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\123\\desktop\\projects\\solforb-test-task\\solforbtesttask\\blazorapp1\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5D7A86A-EFC2-4C7B-83EE-CB22BD964BBA}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5D7A86A-EFC2-4C7B-83EE-CB22BD964BBA}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\123\\desktop\\projects\\solforb-test-task\\solforbtesttask\\blazorapp1\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5D7A86A-EFC2-4C7B-83EE-CB22BD964BBA}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5D7A86A-EFC2-4C7B-83EE-CB22BD964BBA}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\123\\desktop\\projects\\solforb-test-task\\solforbtesttask\\blazorapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5D7A86A-EFC2-4C7B-83EE-CB22BD964BBA}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5D7A86A-EFC2-4C7B-83EE-CB22BD964BBA}|BlazorApp1\\BlazorApp1.csproj|c:\\users\\123\\desktop\\projects\\solforb-test-task\\solforbtesttask\\blazorapp1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B5D7A86A-EFC2-4C7B-83EE-CB22BD964BBA}|BlazorApp1\\BlazorApp1.csproj|solutionrelative:blazorapp1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|c:\\users\\123\\desktop\\projects\\solforb-test-task\\solforbtesttask\\solforbtesttaskblazor\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|solutionrelative:solforbtesttaskblazor\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|c:\\users\\123\\source\\repos\\solforbtesttask\\solforbtesttaskblazor\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|c:\\users\\123\\desktop\\projects\\solforb-test-task\\solforbtesttask\\solforbtesttaskblazor\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|solutionrelative:solforbtesttaskblazor\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|c:\\users\\123\\desktop\\projects\\solforb-test-task\\solforbtesttask\\solforbtesttaskblazor\\components\\pages\\somecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|solutionrelative:solforbtesttaskblazor\\components\\pages\\somecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|c:\\users\\123\\desktop\\projects\\solforb-test-task\\solforbtesttask\\solforbtesttaskblazor\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|solutionrelative:solforbtesttaskblazor\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|c:\\users\\123\\desktop\\projects\\solforb-test-task\\solforbtesttask\\solforbtesttaskblazor\\components\\pages\\cars.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|solutionrelative:solforbtesttaskblazor\\components\\pages\\cars.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|c:\\users\\123\\desktop\\projects\\solforb-test-task\\solforbtesttask\\solforbtesttaskblazor\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|solutionrelative:solforbtesttaskblazor\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|c:\\users\\123\\desktop\\projects\\solforb-test-task\\solforbtesttask\\solforbtesttaskblazor\\components\\pages\\starshipplainform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|solutionrelative:solforbtesttaskblazor\\components\\pages\\starshipplainform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|c:\\users\\123\\desktop\\projects\\solforb-test-task\\solforbtesttask\\solforbtesttaskblazor\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|solutionrelative:solforbtesttaskblazor\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|c:\\users\\123\\desktop\\projects\\solforb-test-task\\solforbtesttask\\solforbtesttaskblazor\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|solutionrelative:solforbtesttaskblazor\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|c:\\users\\123\\desktop\\projects\\solforb-test-task\\solforbtesttask\\solforbtesttaskblazor\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|solutionrelative:solforbtesttaskblazor\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -58,7 +94,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,89 +102,185 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Cars.razor",
-              "DocumentMoniker": "C:\\Users\\123\\source\\repos\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Cars.razor",
-              "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\Pages\\Cars.razor",
-              "ToolTip": "C:\\Users\\123\\source\\repos\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Cars.razor",
-              "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\Pages\\Cars.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-05T11:12:29.305Z",
-              "EditorCaption": ""
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\BlazorApp1\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorApp1\\Program.cs",
+              "ToolTip": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\BlazorApp1\\Program.cs",
+              "RelativeToolTip": "BlazorApp1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T13:31:36.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\BlazorApp1\\appsettings.json",
+              "RelativeDocumentMoniker": "BlazorApp1\\appsettings.json",
+              "ToolTip": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\BlazorApp1\\appsettings.json",
+              "RelativeToolTip": "BlazorApp1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-05T13:31:35.086Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "StarshipPlainForm.razor",
-              "DocumentMoniker": "C:\\Users\\123\\source\\repos\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\StarshipPlainForm.razor",
-              "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\Pages\\StarshipPlainForm.razor",
-              "ToolTip": "C:\\Users\\123\\source\\repos\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\StarshipPlainForm.razor",
-              "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\Pages\\StarshipPlainForm.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Title": "SomeComponent.razor",
+              "DocumentMoniker": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\BlazorApp1\\Components\\Pages\\SomeComponent.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\SomeComponent.razor",
+              "ToolTip": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\BlazorApp1\\Components\\Pages\\SomeComponent.razor",
+              "RelativeToolTip": "BlazorApp1\\Components\\Pages\\SomeComponent.razor",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswCgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-05T07:47:02.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ClientForm.razor",
-              "DocumentMoniker": "C:\\Users\\123\\source\\repos\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\ClientForm.razor",
-              "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\Pages\\ClientForm.razor",
-              "ToolTip": "C:\\Users\\123\\source\\repos\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\ClientForm.razor",
-              "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\Pages\\ClientForm.razor",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAwwCwAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-05T07:36:56.957Z",
+              "WhenOpened": "2025-08-05T13:28:24.238Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "MainLayout.razor",
-              "DocumentMoniker": "C:\\Users\\123\\source\\repos\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\Layout\\MainLayout.razor",
-              "ToolTip": "C:\\Users\\123\\source\\repos\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\Layout\\MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\BlazorApp1\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\BlazorApp1\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "BlazorApp1\\Components\\Layout\\MainLayout.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-05T06:04:27.967Z",
+              "WhenOpened": "2025-08-05T13:31:43.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Clients.razor",
+              "DocumentMoniker": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Clients.razor",
+              "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\Pages\\Clients.razor",
+              "ToolTip": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Clients.razor",
+              "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\Pages\\Clients.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-04T16:02:54.223Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "ClientForm.razor",
+              "DocumentMoniker": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\ClientForm.razor",
+              "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\Pages\\ClientForm.razor",
+              "ToolTip": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\ClientForm.razor",
+              "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\Pages\\ClientForm.razor",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T07:36:56.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Clients.cs",
-              "DocumentMoniker": "C:\\Users\\123\\source\\repos\\SolforbTestTask\\SolforbTestTask.Data\\Clients.cs",
+              "DocumentMoniker": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTask.Data\\Clients.cs",
               "RelativeDocumentMoniker": "SolforbTestTask.Data\\Clients.cs",
-              "ToolTip": "C:\\Users\\123\\source\\repos\\SolforbTestTask\\SolforbTestTask.Data\\Clients.cs",
+              "ToolTip": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTask.Data\\Clients.cs",
               "RelativeToolTip": "SolforbTestTask.Data\\Clients.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAswEYAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAuwGYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-04T15:53:39.2Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "C:\\Users\\123\\source\\repos\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\Layout\\NavMenu.razor",
-              "ToolTip": "C:\\Users\\123\\source\\repos\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAmwBwAAAA1AAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\BlazorApp1\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\BlazorApp1\\Components\\_Imports.razor",
+              "RelativeToolTip": "BlazorApp1\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-04T16:07:18.331Z",
+              "WhenOpened": "2025-08-05T13:31:38.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\BlazorApp1\\Components\\App.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\BlazorApp1\\Components\\App.razor",
+              "RelativeToolTip": "BlazorApp1\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T13:32:03.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\App.razor",
+              "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\App.razor",
+              "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-04T16:07:06.746Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\BlazorApp1\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\BlazorApp1\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "BlazorApp1\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T13:31:42.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SomeComponent.razor",
+              "DocumentMoniker": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\SomeComponent.razor",
+              "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\Pages\\SomeComponent.razor",
+              "ToolTip": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\SomeComponent.razor",
+              "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\Pages\\SomeComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T13:26:02.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T06:04:27.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAmwBwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-04T16:07:18.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\123\\source\\repos\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Home.razor",
+              "DocumentMoniker": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\123\\source\\repos\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\Pages\\Home.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -156,11 +288,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\Users\\123\\source\\repos\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\_Imports.razor",
               "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\_Imports.razor",
-              "ToolTip": "C:\\Users\\123\\source\\repos\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\_Imports.razor",
               "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -168,52 +300,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Clients.razor",
-              "DocumentMoniker": "C:\\Users\\123\\source\\repos\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Clients.razor",
-              "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\Pages\\Clients.razor",
-              "ToolTip": "C:\\Users\\123\\source\\repos\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Clients.razor",
-              "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\Pages\\Clients.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-04T16:02:54.223Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "App.razor",
-              "DocumentMoniker": "C:\\Users\\123\\source\\repos\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\App.razor",
-              "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\App.razor",
-              "ToolTip": "C:\\Users\\123\\source\\repos\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\App.razor",
-              "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\App.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-04T16:07:06.746Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Weather.razor",
-              "DocumentMoniker": "C:\\Users\\123\\source\\repos\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Weather.razor",
-              "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\Pages\\Weather.razor",
-              "ToolTip": "C:\\Users\\123\\source\\repos\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Weather.razor",
-              "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\Pages\\Weather.razor",
-              "ViewState": "AgIAABoAAAAAAAAAAAAuwDYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-04T15:55:45.867Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "Routes.razor",
-              "DocumentMoniker": "C:\\Users\\123\\source\\repos\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Routes.razor",
+              "DocumentMoniker": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Routes.razor",
               "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\Routes.razor",
-              "ToolTip": "C:\\Users\\123\\source\\repos\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Routes.razor",
+              "ToolTip": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Routes.razor",
               "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\Routes.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-04T15:55:19.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StarshipPlainForm.razor",
+              "DocumentMoniker": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\StarshipPlainForm.razor",
+              "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\Pages\\StarshipPlainForm.razor",
+              "ToolTip": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\StarshipPlainForm.razor",
+              "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\Pages\\StarshipPlainForm.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T07:47:02.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Counter.razor",
+              "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\Pages\\Counter.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T12:40:06.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Cars.razor",
+              "DocumentMoniker": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Cars.razor",
+              "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\Pages\\Cars.razor",
+              "ToolTip": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Cars.razor",
+              "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\Pages\\Cars.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T11:12:29.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\Pages\\Weather.razor",
+              "ToolTip": "C:\\Users\\123\\Desktop\\Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Weather.razor",
+              "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\Pages\\Weather.razor",
+              "ViewState": "AgIAABoAAAAAAAAAAAAuwDYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-04T15:55:45.867Z"
             }
           ]
         }

@@ -88,4 +88,30 @@ public class Client
             return null;
         }
     }
+
+    public async Task<Guid?> DeleteClientAsync(Guid clientId)
+    {
+        using var httpClient = new HttpClient();
+        /*
+         http://193.32.203.182:8081/Directories/Client/Form
+        {"guid":"0198768c-ee3f-7f57-8b99-29cc65dcac30"}
+         */
+        try
+        {
+            var content = new StringContent($"{{\"guid\":\"{clientId}\"}}", System.Text.Encoding.UTF8, "application/json");
+            var response = await httpClient.PostAsync("http://193.32.203.182:8081/Directories/Client/Delete", content);
+            if (!response.IsSuccessStatusCode)
+                return null;
+
+            return clientId;
+            //var jsonData = await response.Content.ReadAsStringAsync();
+            //return string.IsNullOrEmpty(jsonData)
+            //    ? null
+            //    : JsonConvert.DeserializeObject<Client>(jsonData);
+        }
+        catch (Exception)
+        {
+            return null;
+        }
+    }
 }

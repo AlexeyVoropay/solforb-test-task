@@ -2,6 +2,7 @@
 @using SolforbTestTask.Data
 @attribute [StreamRendering]
 @inject NavigationManager NavigationManager
+@preservewhitespace true
 
 <PageTitle>Клиент</PageTitle>
 
@@ -10,9 +11,12 @@
 <form method="post" @onsubmit="Submit" @formname="ClientForm">
     <AntiforgeryToken />
     <div>
-        <button class="btn btn-success" type="submit" name="Action" value="save">Сохранить</button>
-        <button class="btn btn-danger" type="submit" name="Action" value="delete">Удалить</button>
-        <button class="btn btn-warning" type="submit" name="Action" value="archive">В архив</button>
+        <button @onclick="() => Click()" class="btn btn-success" name="Action" value="save">Сохранить</button>
+        @if (ClientId != Guid.Empty)
+        {
+            <button @onclick="() => Delete()" class="btn btn-danger" type="submit" name="Action" value="delete">Удалить</button>
+            <button @onclick="() => Archive()" class="btn btn-warning" type="submit" name="Action" value="archive">В архив</button>
+        }
     </div>
     <div>
         Наименование
@@ -30,19 +34,27 @@
 
 
 @code {
-    [SupplyParameterFromForm] 
+    [SupplyParameterFromForm]
     public string Action { get; set; }
 
     private async Task Submit()
     {
-        if(Action == "delete")
+        if (Action == "save")
         {
-            
+            var result = new Client().SaveClientAsync(client).GetAwaiter().GetResult();
+            NavigationManager.NavigateTo("/clients/1", true);
         }
-
-        //var result = new Client().SaveClientAsync(client).GetAwaiter().GetResult();  
-        
-        NavigationManager.NavigateTo("/clients/1");
+        if (Action == "delete")
+        {
+            var result = new Client().SaveClientAsync(client).GetAwaiter().GetResult();
+            NavigationManager.NavigateTo("/clients/1", true);
+        }
+        if (Action == "archive")
+        {
+            client.Condition = 2;
+            var result = new Client().SaveClientAsync(client).GetAwaiter().GetResult();
+            NavigationManager.NavigateTo("/clients/2", true);
+        }
     }
 
     [Parameter]
@@ -60,6 +72,26 @@
         //// Simulate asynchronous loading to demonstrate streaming rendering
         //await Task.Delay(500);
 
-        client =  await new Client().GetClientAsync(ClientId) ?? new();
+        client = await new Client().GetClientAsync(ClientId) ?? new();
     }
+
+    public async Task Click()
+    {
+        var result = await new Client().SaveClientAsync(client);
+        NavigationManager.NavigateTo($"/clients/{client.Condition}", true);
+    }
+
+    public async Task Delete()
+    {
+        var result = await new Client().DeleteClientAsync(client.Guid);
+        NavigationManager.NavigateTo($"/clients/{client.Condition}", true);
+    }
+
+    public async Task Archive()
+    {
+        client.Condition = 2;
+        var result = await new Client().SaveClientAsync(client);
+        NavigationManager.NavigateTo("/clients/2", true);
+    }
+        
 }

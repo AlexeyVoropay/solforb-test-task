@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolforbTestTaskBlazor", "So
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolforbTestTask.Data", "SolforbTestTask.Data\SolforbTestTask.Data.csproj", "{79A6F8D4-445A-44A3-942D-5EB7F1740B41}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp1", "BlazorApp1\BlazorApp1.csproj", "{B5D7A86A-EFC2-4C7B-83EE-CB22BD964BBA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{79A6F8D4-445A-44A3-942D-5EB7F1740B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79A6F8D4-445A-44A3-942D-5EB7F1740B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79A6F8D4-445A-44A3-942D-5EB7F1740B41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5D7A86A-EFC2-4C7B-83EE-CB22BD964BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5D7A86A-EFC2-4C7B-83EE-CB22BD964BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5D7A86A-EFC2-4C7B-83EE-CB22BD964BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5D7A86A-EFC2-4C7B-83EE-CB22BD964BBA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

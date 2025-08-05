@@ -1,6 +1,7 @@
 ﻿@page "/clients/{Condition:int}"
 @using SolforbTestTask.Data
 @attribute [StreamRendering]
+@inject NavigationManager NavigationManager
 
 <PageTitle>Клиенты</PageTitle>
 
@@ -36,11 +37,11 @@ else
             </tr>
         </thead>
         <tbody>
-            @foreach (var forecast in clients)
+            @foreach (var client in clients)
             {
                 <tr>
-                    <td>@forecast.Name</td>
-                    <td>@forecast.Address</td>
+                    <td @onclick="() => Open(client.Guid)">@client.Name</td>
+                    <td @onclick="() => Open(client.Guid)">@client.Address</td>
                 </tr>
             }
         </tbody>
@@ -53,6 +54,16 @@ else
     public int Condition { get; set; }
 
     private Client[]? clients;
+
+    public async Task Open(Guid guid)
+    {
+        NavigationManager.NavigateTo($"clients/form/{guid}");
+    }
+
+    // public async Task Open()
+    // {
+    //     NavigationManager.NavigateTo($"clients/form/{Guid.Empty}");
+    // }
 
     protected override async Task OnInitializedAsync()
     {
