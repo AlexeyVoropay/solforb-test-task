@@ -1,0 +1,65 @@
+﻿@page "/clients/form/{ClientId:guid}"
+@using SolforbTestTask.Data
+@attribute [StreamRendering]
+@inject NavigationManager NavigationManager
+
+<PageTitle>Клиент</PageTitle>
+
+<h1>Клиент</h1>
+
+<form method="post" @onsubmit="Submit" @formname="ClientForm">
+    <AntiforgeryToken />
+    <div>
+        <button class="btn btn-success" type="submit" name="Action" value="save">Сохранить</button>
+        <button class="btn btn-danger" type="submit" name="Action" value="delete">Удалить</button>
+        <button class="btn btn-warning" type="submit" name="Action" value="archive">В архив</button>
+    </div>
+    <div>
+        Наименование
+    </div>
+    <div>
+        <InputText @bind-Value="client!.Name" />
+    </div>
+    <div>
+        Адрес
+    </div>
+    <div>
+        <InputText @bind-Value="client!.Address" />
+    </div>
+</form>
+
+
+@code {
+    [SupplyParameterFromForm] 
+    public string Action { get; set; }
+
+    private async Task Submit()
+    {
+        if(Action == "delete")
+        {
+            
+        }
+
+        //var result = new Client().SaveClientAsync(client).GetAwaiter().GetResult();  
+        
+        NavigationManager.NavigateTo("/clients/1");
+    }
+
+    [Parameter]
+    public Guid ClientId { get; set; }
+
+    [SupplyParameterFromForm]
+    private Client client { get; set; } = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (ClientId == Guid.Empty)
+            return;
+        //Model.Guid = ClientId.ToString();
+
+        //// Simulate asynchronous loading to demonstrate streaming rendering
+        //await Task.Delay(500);
+
+        client =  await new Client().GetClientAsync(ClientId) ?? new();
+    }
+}

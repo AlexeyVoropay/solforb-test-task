@@ -1,0 +1,64 @@
+﻿@page "/clients/{Condition:int}"
+@using SolforbTestTask.Data
+@attribute [StreamRendering]
+
+<PageTitle>Клиенты</PageTitle>
+
+<h1>Клиенты</h1>
+
+@* <p>This component demonstrates showing data.</p> *@
+
+@if (clients == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    @if(Condition == 1)
+    {
+        <NavLink class="btn btn-success" href="clients/form/00000000-0000-0000-0000-000000000000">Добавить</NavLink>
+        <NavLink class="btn btn-warning" href="clients/2">К архиву</NavLink>
+    }
+    else if (Condition == 2)
+    {
+        <NavLink class="btn btn-primary" href="clients/1">К рабочим</NavLink>
+    }
+    else
+    {
+        @* <p>Условие не распознано. Пожалуйста, проверьте URL.</p> *@
+    }    
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Наименование</th>
+                <th>Адрес</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var forecast in clients)
+            {
+                <tr>
+                    <td>@forecast.Name</td>
+                    <td>@forecast.Address</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+
+    [Parameter]
+    public int Condition { get; set; }
+
+    private Client[]? clients;
+
+    protected override async Task OnInitializedAsync()
+    {
+        //// Simulate asynchronous loading to demonstrate streaming rendering
+        //await Task.Delay(500);
+
+       clients = await new Client().GetClientsAsync(Condition);
+    }
+}
