@@ -1,13 +1,14 @@
 ﻿@page "/clients/{Condition:int}"
 @using SolforbTestTask.Data
+@using SolforbTestTask.Data.Models
 @attribute [StreamRendering]
 @inject NavigationManager NavigationManager
+@inject IClientService clientService
+@preservewhitespace true
 
 <PageTitle>Клиенты</PageTitle>
 
 <h1>Клиенты</h1>
-
-@* <p>This component demonstrates showing data.</p> *@
 
 @if (clients == null)
 {
@@ -18,11 +19,13 @@ else
     @if(Condition == 1)
     {
         <NavLink class="btn btn-success" href="clients/form/00000000-0000-0000-0000-000000000000">Добавить</NavLink>
-        <NavLink class="btn btn-warning" href="clients/2">К архиву</NavLink>
+        @* <NavLink class="btn btn-warning" href="clients/2">К архиву</NavLink> *@
+        <button @onclick="() => ToArchive()" class="btn btn-warning">К архиву</button>
     }
     else if (Condition == 2)
     {
-        <NavLink class="btn btn-primary" href="clients/1">К рабочим</NavLink>
+        @* <NavLink class="btn btn-primary" href="clients/1">К рабочим</NavLink> *@
+        <button @onclick="() => ToActive()" class="btn btn-primary">К рабочим</button>
     }
     else
     {
@@ -57,7 +60,17 @@ else
 
     public async Task Open(Guid guid)
     {
-        NavigationManager.NavigateTo($"clients/form/{guid}");
+        NavigationManager.NavigateTo($"clients/form/{guid}", true);
+    }
+
+    public async Task ToActive()
+    {
+        NavigationManager.NavigateTo("clients/1", true);
+    }
+
+    public async Task ToArchive()
+    {
+        NavigationManager.NavigateTo("clients/2", true);
     }
 
     // public async Task Open()
@@ -70,6 +83,6 @@ else
         //// Simulate asynchronous loading to demonstrate streaming rendering
         //await Task.Delay(500);
 
-       clients = await new Client().GetClientsAsync(Condition);
+        clients = await clientService.GetClientsAsync(Condition);
     }
 }

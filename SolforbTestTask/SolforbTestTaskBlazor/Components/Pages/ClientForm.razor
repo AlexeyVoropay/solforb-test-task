@@ -1,7 +1,9 @@
 ﻿@page "/clients/form/{ClientId:guid}"
 @using SolforbTestTask.Data
+@using SolforbTestTask.Data.Models
 @attribute [StreamRendering]
 @inject NavigationManager NavigationManager
+@inject IClientService clientService
 @preservewhitespace true
 
 <PageTitle>Клиент</PageTitle>
@@ -15,7 +17,14 @@
         @if (ClientId != Guid.Empty)
         {
             <button @onclick="() => Delete()" class="btn btn-danger" type="submit" name="Action" value="delete">Удалить</button>
-            <button @onclick="() => Archive()" class="btn btn-warning" type="submit" name="Action" value="archive">В архив</button>
+            if (client.Condition == 1)
+            {
+                <button @onclick="() => Archive()" class="btn btn-warning" type="submit" name="Action" value="archive">В архив</button>
+            }
+            if (client.Condition == 2)
+            {
+                <button @onclick="() => Archive()" class="btn btn-primary" type="submit" name="Action" value="archive">В работу</button>
+            }
         }
     </div>
     <div>
@@ -39,22 +48,23 @@
 
     private async Task Submit()
     {
-        if (Action == "save")
-        {
-            var result = new Client().SaveClientAsync(client).GetAwaiter().GetResult();
-            NavigationManager.NavigateTo("/clients/1", true);
-        }
-        if (Action == "delete")
-        {
-            var result = new Client().SaveClientAsync(client).GetAwaiter().GetResult();
-            NavigationManager.NavigateTo("/clients/1", true);
-        }
-        if (Action == "archive")
-        {
-            client.Condition = 2;
-            var result = new Client().SaveClientAsync(client).GetAwaiter().GetResult();
-            NavigationManager.NavigateTo("/clients/2", true);
-        }
+        // if (Action == "save")
+        // {
+        //     var result = new Client().SaveClientAsync(client).GetAwaiter().GetResult();
+        //     NavigationManager.NavigateTo("/clients/1", true);
+        // }
+        // if (Action == "delete")
+        // {
+        //     var result = new Client().SaveClientAsync(client).GetAwaiter().GetResult();
+        //     NavigationManager.NavigateTo("/clients/1", true);
+        // }
+        // if (Action == "archive")
+        // {
+        //     client.Condition = 2;
+        //     var result = new Client().SaveClientAsync(client).GetAwaiter().GetResult();
+        //     //NavigationManager.NavigateTo("/clients/2", true);
+        //     NavigationManager.NavigateTo("/clients/1", true);
+        // }
     }
 
     [Parameter]
@@ -72,26 +82,27 @@
         //// Simulate asynchronous loading to demonstrate streaming rendering
         //await Task.Delay(500);
 
-        client = await new Client().GetClientAsync(ClientId) ?? new();
+        client = await clientService.GetClientAsync(ClientId) ?? new();
     }
 
     public async Task Click()
     {
-        var result = await new Client().SaveClientAsync(client);
+        var result = await clientService.SaveClientAsync(client);
         NavigationManager.NavigateTo($"/clients/{client.Condition}", true);
     }
 
     public async Task Delete()
     {
-        var result = await new Client().DeleteClientAsync(client.Guid);
+        var result = await clientService.DeleteClientAsync(client.Guid);
         NavigationManager.NavigateTo($"/clients/{client.Condition}", true);
     }
 
     public async Task Archive()
     {
         client.Condition = 2;
-        var result = await new Client().SaveClientAsync(client);
-        NavigationManager.NavigateTo("/clients/2", true);
+        //var result = await new Client().SaveClientAsync(client);
+        var result = await clientService.ChangeConditionClientAsync(client.Guid);
+        //NavigationManager.NavigateTo("/clients/2", true
+        NavigationManager.NavigateTo("/clients/1", true);
     }
-        
 }

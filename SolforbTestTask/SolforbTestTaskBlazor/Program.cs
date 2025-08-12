@@ -1,3 +1,4 @@
+using SolforbTestTask.Data;
 using SolforbTestTaskBlazor.Components;
 
 namespace SolforbTestTaskBlazor
@@ -11,6 +12,8 @@ namespace SolforbTestTaskBlazor
             // Add services to the container.
             builder.Services.AddRazorComponents()
                 .AddInteractiveServerComponents();
+            
+            builder.Services.AddTransient<IClientService, ClientService>();
 
             var app = builder.Build();
 
