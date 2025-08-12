@@ -12,7 +12,7 @@ public interface IClientService
     Task<string?> SaveClientAsync(Client client);
 }
 
-public class ClientService : IClientService
+public class ClientsService : IClientService
 {
     public async Task<Client[]?> GetClientsAsync(int condition)
     {

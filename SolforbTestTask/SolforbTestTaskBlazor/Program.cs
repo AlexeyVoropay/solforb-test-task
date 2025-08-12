@@ -13,7 +13,8 @@ namespace SolforbTestTaskBlazor
             builder.Services.AddRazorComponents()
                 .AddInteractiveServerComponents();
             
-            builder.Services.AddTransient<IClientService, ClientService>();
+            builder.Services.AddTransient<IClientService, ClientsService>();
+            builder.Services.AddTransient<IReceiptsService, ReceiptsService>();
 
             var app = builder.Build();
 

@@ -1,0 +1,130 @@
+﻿@page "/receipts"
+@using SolforbTestTask.Data
+@using SolforbTestTask.Data.Models
+@attribute [StreamRendering]
+@inject NavigationManager NavigationManager
+@inject IClientService clientService
+@inject IReceiptsService receiptsService
+@preservewhitespace true
+
+<PageTitle>Клиенты</PageTitle>
+
+<h1>Клиенты</h1>
+
+@if (clients == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    @if(Condition == 1)
+    {
+        <NavLink class="btn btn-success" href="clients/form/00000000-0000-0000-0000-000000000000">Добавить</NavLink>
+        @* <NavLink class="btn btn-warning" href="clients/2">К архиву</NavLink> *@
+        <button @onclick="() => ToArchive()" class="btn btn-warning">К архиву</button>
+    }
+    else if (Condition == 2)
+    {
+        @* <NavLink class="btn btn-primary" href="clients/1">К рабочим</NavLink> *@
+        <button @onclick="() => ToActive()" class="btn btn-primary">К рабочим</button>
+    }
+    else
+    {
+        @* <p>Условие не распознано. Пожалуйста, проверьте URL.</p> *@
+    }
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Номер</th>
+                <th>Дата</th>
+                <th>Ресурс</th>
+                <th>Единица измерения</th>
+                <th>Количество</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var receipt in receipts.Items)
+            {
+                <tr>
+                    <td @onclick="() => Open(receipt.ReceiptGuid)">@GetNumber(receipt.ReceiptGuid)</td>
+                    <td @onclick="() => Open(receipt.ReceiptGuid)">@GetDate(receipt.ReceiptGuid)</td>
+                    <td @onclick="() => Open(receipt.ReceiptGuid)">@receipt.ResourceName</td>
+                    <td @onclick="() => Open(receipt.ReceiptGuid)">@receipt.MeasureUnitName</td>
+                    <td @onclick="() => Open(receipt.ReceiptGuid)">@receipt.Quantity</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    @* <table class="table">
+        <thead>
+            <tr>
+                <th>Наименование</th>
+                <th>Адрес</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var client in clients)
+            {
+                <tr>
+                    <td @onclick="() => Open(client.Guid)">@client.Name</td>
+                    <td @onclick="() => Open(client.Guid)">@client.Address</td>
+                </tr>
+            }
+        </tbody>
+    </table> *@
+}
+
+@code {
+    public int Condition { get; set; } = 1;
+
+    private Client[]? clients;
+
+    private Root? receipts;
+
+    // public async Task Open(Guid guid)
+    // {
+    //     NavigationManager.NavigateTo($"clients/form/{guid}", true);
+    // }
+
+    private string GetNumber(string guid)
+    {
+        return receipts.Receipts.FirstOrDefault(x => x.Guid == guid).Number;
+    }
+
+    private DateTime GetDate(string guid)
+    {
+        return receipts.Receipts.FirstOrDefault(x => x.Guid == guid).Date;
+    }
+
+    public async Task Open(string guid)
+    {
+        NavigationManager.NavigateTo($"clients/form/{guid}", true);
+    }
+
+    public async Task ToActive()
+    {
+        NavigationManager.NavigateTo("clients/1", true);
+    }
+
+    public async Task ToArchive()
+    {
+        NavigationManager.NavigateTo("clients/2", true);
+    }
+
+    // public async Task Open()
+    // {
+    //     NavigationManager.NavigateTo($"clients/form/{Guid.Empty}");
+    // }
+
+    protected override async Task OnInitializedAsync()
+    {
+        //// Simulate asynchronous loading to demonstrate streaming rendering
+        //await Task.Delay(500);
+
+        clients = await clientService.GetClientsAsync(Condition);
+
+        receipts = await receiptsService.GetReceiptsAsync();
+    }
+}
