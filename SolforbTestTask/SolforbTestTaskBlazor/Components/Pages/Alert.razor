@@ -1,0 +1,31 @@
+﻿@page "/alert"
+
+<h3>Bootstrap Alert Example</h3>
+
+<div class="alert alert-success"> <strong>Success!</strong> Your message has been sent successfully. </div>
+
+<div>
+    <button @onclick="@DoSomthing">Show/Hide</button>
+</div>
+
+<div class="alert alert-primary @HideAlert" role="alert">
+    @AlertContent
+</div>
+
+@code {
+    private string HideAlert { get; set; } = "d-none";
+    private string AlertContent { get; set; } = "This is a primary alert—check it out!";
+    private void DoSomthing()
+    {
+        if (HideAlert == "")
+        {
+            HideAlert = "d-none";
+            AlertContent = "This is a primary alert—check it out!";
+        }
+        else
+        {
+            HideAlert = "";
+            AlertContent = "Hello World";
+        }
+    }
+}
