@@ -1,0 +1,83 @@
+﻿@page "/multiple"
+
+<PageTitle>Index</PageTitle>
+
+<div class="mb-3">
+    <label for="state" class="form-label">State</label>
+    <select id="state" class="form-select" @bind=SelectedStateId>
+        @this.ShowChoose(SelectedStateId)
+        @foreach (var state in StatesDb)
+        {
+            <option value="@state.Id">@state.Name</option>
+        }
+    </select>
+</div>
+
+<div class="mb-3">
+    <label for="company" class="form-label">Company</label>
+    <select id="company" class="form-select" disabled="@this.IsCompanyDisabled" @bind=SelectedCompanyId>
+        @this.ShowChoose(SelectedCompanyId)
+        @foreach (var company in CompaniesFiltered)
+        {
+            <option value="@company.Id">@company.Name</option>
+        }
+    </select>
+</div>
+
+@code {
+    private IEnumerable<State> StatesDb { get; set; } = new List<State>() {
+            new State(){ Id = 1, Name = "Delaware", Abbreviation = "DE"},
+            new State(){ Id = 2, Name = "Pennslyvania", Abbreviation = "PA"},
+            new State(){ Id = 3, Name = "New Jersey", Abbreviation = "NJ"},
+        };
+
+    private IEnumerable<Company> CompaniesDb { get; set; } = new List<Company>() {
+                new Company(){ Id = 1, Name = "Company 1", StateIds = new List<int> { 1 } },
+                new Company(){ Id = 2, Name = "Company 2", StateIds = new List<int> { 2 } },
+                new Company(){ Id = 3, Name = "Company 3", StateIds  = new List<int> { 1,3 }
+            }
+        };
+
+    private IEnumerable<Company> CompaniesFiltered
+        => CompaniesDb.Where(x => (SelectedStateId == null || x.StateIds.Contains((int)SelectedStateId))).ToList();
+
+    private bool IsCompanyDisabled => SelectedStateId is null || SelectedStateId == 0;
+
+    int? _selectedStateId = 0;
+    int? SelectedStateId
+    {
+        get => _selectedStateId;
+        set
+        {
+            if (value != _selectedStateId)
+            {
+                _selectedStateId = value;
+                SelectedCompanyId = 0;
+            }
+        }
+    }
+
+    int? SelectedCompanyId { get; set; }
+
+    private RenderFragment ShowChoose(int? value) => (__builder) =>
+    {
+        if (value is null || value == 0)
+        {
+            <option value="0" disabled selected>Choose...</option>
+        }
+    };
+
+    public class State
+    {
+        public int Id { get; set; }
+        public string Name { get; set; } = "No Name Provided";
+        public string Abbreviation { get; set; } = "No Abbreviation Provided";
+    }
+
+    public class Company
+    {
+        public int Id { get; set; }
+        public string Name { get; set; } = "No Name Provided";
+        public IEnumerable<int> StateIds { get; set; } = Enumerable.Empty<int>();
+    }
+}

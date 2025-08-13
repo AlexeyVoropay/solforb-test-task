@@ -33,6 +33,16 @@ else
         @* <p>Условие не распознано. Пожалуйста, проверьте URL.</p> *@
     }
 
+    <div class="input-group">
+        @* <input class="form-control" type="date">
+        <input class="form-control" type="date"> *@
+        <InputDate Type="InputDateType.Date" class="form-control"
+                   min="@DateTime.Today.ToString("yyyy-MM-dd")" @bind-Value="@StartDate" />
+
+        <InputDate Type="InputDateType.Date" class="form-control"
+                   min="@DateTime.Today.ToString("yyyy-MM-dd")" @bind-Value="@EndDate" />
+    </div>
+
     <table class="table">
         <thead>
             <tr>
@@ -56,24 +66,6 @@ else
             }
         </tbody>
     </table>
-
-    @* <table class="table">
-        <thead>
-            <tr>
-                <th>Наименование</th>
-                <th>Адрес</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var client in clients)
-            {
-                <tr>
-                    <td @onclick="() => Open(client.Guid)">@client.Name</td>
-                    <td @onclick="() => Open(client.Guid)">@client.Address</td>
-                </tr>
-            }
-        </tbody>
-    </table> *@
 }
 
 @code {
@@ -82,6 +74,10 @@ else
     private Client[]? clients;
 
     private Root? receipts;
+
+    DateTimeOffset StartDate = DateTimeOffset.Now.Date.AddDays(-7);
+
+    DateTimeOffset EndDate = DateTimeOffset.Now.Date.AddDays(7);
 
     // public async Task Open(Guid guid)
     // {
@@ -125,6 +121,6 @@ else
 
         clients = await clientService.GetClientsAsync(Condition);
 
-        receipts = await receiptsService.GetReceiptsAsync();
+        receipts = await receiptsService.GetReceiptsAsync(StartDate, EndDate);
     }
 }
