@@ -3,12 +3,48 @@
   "WorkspaceRootPath": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{79A6F8D4-445A-44A3-942D-5EB7F1740B41}|SolforbTestTask.Data\\SolforbTestTask.Data.csproj|d:\\yandexdisk\\voropay-common\\z_alexey\\_\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_projects\\solforb-test-task\\solforbtesttask\\solforbtesttask.data\\receiptsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79A6F8D4-445A-44A3-942D-5EB7F1740B41}|SolforbTestTask.Data\\SolforbTestTask.Data.csproj|solutionrelative:solforbtesttask.data\\receiptsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|d:\\yandexdisk\\voropay-common\\z_alexey\\_\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_projects\\solforb-test-task\\solforbtesttask\\solforbtesttaskblazor\\components\\pages\\receiptform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|solutionrelative:solforbtesttaskblazor\\components\\pages\\receiptform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|d:\\yandexdisk\\voropay-common\\z_alexey\\_\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_projects\\solforb-test-task\\solforbtesttask\\solforbtesttaskblazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|solutionrelative:solforbtesttaskblazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79A6F8D4-445A-44A3-942D-5EB7F1740B41}|SolforbTestTask.Data\\SolforbTestTask.Data.csproj|d:\\yandexdisk\\voropay-common\\z_alexey\\_\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_projects\\solforb-test-task\\solforbtesttask\\solforbtesttask.data\\models\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79A6F8D4-445A-44A3-942D-5EB7F1740B41}|SolforbTestTask.Data\\SolforbTestTask.Data.csproj|solutionrelative:solforbtesttask.data\\models\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79A6F8D4-445A-44A3-942D-5EB7F1740B41}|SolforbTestTask.Data\\SolforbTestTask.Data.csproj|d:\\yandexdisk\\voropay-common\\z_alexey\\_\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_projects\\solforb-test-task\\solforbtesttask\\solforbtesttask.data\\resourcesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79A6F8D4-445A-44A3-942D-5EB7F1740B41}|SolforbTestTask.Data\\SolforbTestTask.Data.csproj|solutionrelative:solforbtesttask.data\\resourcesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79A6F8D4-445A-44A3-942D-5EB7F1740B41}|SolforbTestTask.Data\\SolforbTestTask.Data.csproj|d:\\yandexdisk\\voropay-common\\z_alexey\\_\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_projects\\solforb-test-task\\solforbtesttask\\solforbtesttask.data\\measureunitsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79A6F8D4-445A-44A3-942D-5EB7F1740B41}|SolforbTestTask.Data\\SolforbTestTask.Data.csproj|solutionrelative:solforbtesttask.data\\measureunitsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79A6F8D4-445A-44A3-942D-5EB7F1740B41}|SolforbTestTask.Data\\SolforbTestTask.Data.csproj|d:\\yandexdisk\\voropay-common\\z_alexey\\_\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_projects\\solforb-test-task\\solforbtesttask\\solforbtesttask.data\\models\\receiptitemview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79A6F8D4-445A-44A3-942D-5EB7F1740B41}|SolforbTestTask.Data\\SolforbTestTask.Data.csproj|solutionrelative:solforbtesttask.data\\models\\receiptitemview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|d:\\yandexdisk\\voropay-common\\z_alexey\\_\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_projects\\solforb-test-task\\solforbtesttask\\solforbtesttaskblazor\\components\\pages\\receipts.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|solutionrelative:solforbtesttaskblazor\\components\\pages\\receipts.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79A6F8D4-445A-44A3-942D-5EB7F1740B41}|SolforbTestTask.Data\\SolforbTestTask.Data.csproj|d:\\yandexdisk\\voropay-common\\z_alexey\\_\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_projects\\solforb-test-task\\solforbtesttask\\solforbtesttask.data\\models\\measureunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79A6F8D4-445A-44A3-942D-5EB7F1740B41}|SolforbTestTask.Data\\SolforbTestTask.Data.csproj|solutionrelative:solforbtesttask.data\\models\\measureunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79A6F8D4-445A-44A3-942D-5EB7F1740B41}|SolforbTestTask.Data\\SolforbTestTask.Data.csproj|d:\\yandexdisk\\voropay-common\\z_alexey\\_\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_projects\\solforb-test-task\\solforbtesttask\\solforbtesttask.data\\clientsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79A6F8D4-445A-44A3-942D-5EB7F1740B41}|SolforbTestTask.Data\\SolforbTestTask.Data.csproj|solutionrelative:solforbtesttask.data\\clientsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79A6F8D4-445A-44A3-942D-5EB7F1740B41}|SolforbTestTask.Data\\SolforbTestTask.Data.csproj|d:\\yandexdisk\\voropay-common\\z_alexey\\_\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_projects\\solforb-test-task\\solforbtesttask\\solforbtesttask.data\\models\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79A6F8D4-445A-44A3-942D-5EB7F1740B41}|SolforbTestTask.Data\\SolforbTestTask.Data.csproj|solutionrelative:solforbtesttask.data\\models\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|d:\\yandexdisk\\voropay-common\\z_alexey\\_\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_projects\\solforb-test-task\\solforbtesttask\\solforbtesttaskblazor\\components\\pages\\clientform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|solutionrelative:solforbtesttaskblazor\\components\\pages\\clientform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|d:\\yandexdisk\\voropay-common\\z_alexey\\_\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_projects\\solforb-test-task\\solforbtesttask\\solforbtesttaskblazor\\components\\pages\\starship5.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -19,40 +55,32 @@
       "RelativeMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|solutionrelative:solforbtesttaskblazor\\components\\pages\\component.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|d:\\yandexdisk\\voropay-common\\z_alexey\\_\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_projects\\solforb-test-task\\solforbtesttask\\solforbtesttaskblazor\\components\\pages\\clients.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|solutionrelative:solforbtesttaskblazor\\components\\pages\\clients.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|d:\\yandexdisk\\voropay-common\\z_alexey\\_\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_projects\\solforb-test-task\\solforbtesttask\\solforbtesttaskblazor\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|solutionrelative:solforbtesttaskblazor\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|d:\\yandexdisk\\voropay-common\\z_alexey\\_\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_projects\\solforb-test-task\\solforbtesttask\\solforbtesttaskblazor\\components\\pages\\cars.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|solutionrelative:solforbtesttaskblazor\\components\\pages\\cars.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|d:\\yandexdisk\\voropay-common\\z_alexey\\_\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_projects\\solforb-test-task\\solforbtesttask\\solforbtesttaskblazor\\components\\pages\\starshipplainform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|solutionrelative:solforbtesttaskblazor\\components\\pages\\starshipplainform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79A6F8D4-445A-44A3-942D-5EB7F1740B41}|SolforbTestTask.Data\\SolforbTestTask.Data.csproj|d:\\yandexdisk\\voropay-common\\z_alexey\\_\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_projects\\solforb-test-task\\solforbtesttask\\solforbtesttask.data\\receiptsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79A6F8D4-445A-44A3-942D-5EB7F1740B41}|SolforbTestTask.Data\\SolforbTestTask.Data.csproj|solutionrelative:solforbtesttask.data\\receiptsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|d:\\yandexdisk\\voropay-common\\z_alexey\\_\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_projects\\solforb-test-task\\solforbtesttask\\solforbtesttaskblazor\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|solutionrelative:solforbtesttaskblazor\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|d:\\yandexdisk\\voropay-common\\z_alexey\\_\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_projects\\solforb-test-task\\solforbtesttask\\solforbtesttaskblazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|solutionrelative:solforbtesttaskblazor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|d:\\yandexdisk\\voropay-common\\z_alexey\\_\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_projects\\solforb-test-task\\solforbtesttask\\solforbtesttaskblazor\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|solutionrelative:solforbtesttaskblazor\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79A6F8D4-445A-44A3-942D-5EB7F1740B41}|SolforbTestTask.Data\\SolforbTestTask.Data.csproj|d:\\yandexdisk\\voropay-common\\z_alexey\\_\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_projects\\solforb-test-task\\solforbtesttask\\solforbtesttask.data\\clientsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79A6F8D4-445A-44A3-942D-5EB7F1740B41}|SolforbTestTask.Data\\SolforbTestTask.Data.csproj|solutionrelative:solforbtesttask.data\\clientsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79A6F8D4-445A-44A3-942D-5EB7F1740B41}|SolforbTestTask.Data\\SolforbTestTask.Data.csproj|d:\\yandexdisk\\voropay-common\\z_alexey\\_\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_projects\\solforb-test-task\\solforbtesttask\\solforbtesttask.data\\models\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79A6F8D4-445A-44A3-942D-5EB7F1740B41}|SolforbTestTask.Data\\SolforbTestTask.Data.csproj|solutionrelative:solforbtesttask.data\\models\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79A6F8D4-445A-44A3-942D-5EB7F1740B41}|SolforbTestTask.Data\\SolforbTestTask.Data.csproj|d:\\yandexdisk\\voropay-common\\z_alexey\\_\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_projects\\solforb-test-task\\solforbtesttask\\solforbtesttask.data\\measureunitsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79A6F8D4-445A-44A3-942D-5EB7F1740B41}|SolforbTestTask.Data\\SolforbTestTask.Data.csproj|solutionrelative:solforbtesttask.data\\measureunitsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|d:\\yandexdisk\\voropay-common\\z_alexey\\_\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_projects\\solforb-test-task\\solforbtesttask\\solforbtesttaskblazor\\components\\pages\\clients.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|solutionrelative:solforbtesttaskblazor\\components\\pages\\clients.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|d:\\yandexdisk\\voropay-common\\z_alexey\\_\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_projects\\solforb-test-task\\solforbtesttask\\solforbtesttaskblazor\\components\\pages\\clientform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2A408D4E-5ACF-4F44-BDD3-40BE4D4B62F4}|SolforbTestTaskBlazor\\SolforbTestTaskBlazor.csproj|solutionrelative:solforbtesttaskblazor\\components\\pages\\clientform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5D7A86A-EFC2-4C7B-83EE-CB22BD964BBA}|BlazorApp1\\BlazorApp1.csproj|d:\\yandexdisk\\voropay-common\\z_alexey\\_\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_projects\\solforb-test-task\\solforbtesttask\\blazorapp1\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -102,121 +130,80 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ReceiptsService.cs",
-              "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTask.Data\\ReceiptsService.cs",
-              "RelativeDocumentMoniker": "SolforbTestTask.Data\\ReceiptsService.cs",
-              "ToolTip": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTask.Data\\ReceiptsService.cs",
-              "RelativeToolTip": "SolforbTestTask.Data\\ReceiptsService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAQAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ResourcesService.cs",
+              "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTask.Data\\ResourcesService.cs",
+              "RelativeDocumentMoniker": "SolforbTestTask.Data\\ResourcesService.cs",
+              "ToolTip": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTask.Data\\ResourcesService.cs",
+              "RelativeToolTip": "SolforbTestTask.Data\\ResourcesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T18:35:55.511Z",
+              "WhenOpened": "2025-08-17T18:08:49.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ReceiptItemView.cs",
+              "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTask.Data\\Models\\ReceiptItemView.cs",
+              "RelativeDocumentMoniker": "SolforbTestTask.Data\\Models\\ReceiptItemView.cs",
+              "ToolTip": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTask.Data\\Models\\ReceiptItemView.cs",
+              "RelativeToolTip": "SolforbTestTask.Data\\Models\\ReceiptItemView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T10:30:03.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MeasureUnit.cs",
+              "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTask.Data\\Models\\MeasureUnit.cs",
+              "RelativeDocumentMoniker": "SolforbTestTask.Data\\Models\\MeasureUnit.cs",
+              "ToolTip": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTask.Data\\Models\\MeasureUnit.cs",
+              "RelativeToolTip": "SolforbTestTask.Data\\Models\\MeasureUnit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T10:28:58.261Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTask.Data\\Models\\Class1.cs",
-              "RelativeDocumentMoniker": "SolforbTestTask.Data\\Models\\Class1.cs",
-              "ToolTip": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTask.Data\\Models\\Class1.cs",
-              "RelativeToolTip": "SolforbTestTask.Data\\Models\\Class1.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAlwBQAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T18:34:23.691Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MeasureUnitsService.cs",
-              "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTask.Data\\MeasureUnitsService.cs",
-              "RelativeDocumentMoniker": "SolforbTestTask.Data\\MeasureUnitsService.cs",
-              "ToolTip": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTask.Data\\MeasureUnitsService.cs",
-              "RelativeToolTip": "SolforbTestTask.Data\\MeasureUnitsService.cs",
+              "Title": "Resource.cs",
+              "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTask.Data\\Models\\Resource.cs",
+              "RelativeDocumentMoniker": "SolforbTestTask.Data\\Models\\Resource.cs",
+              "ToolTip": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTask.Data\\Models\\Resource.cs",
+              "RelativeToolTip": "SolforbTestTask.Data\\Models\\Resource.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T18:32:04.213Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "_Imports.razor",
-              "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\BlazorApp1\\Components\\_Imports.razor",
-              "RelativeDocumentMoniker": "BlazorApp1\\Components\\_Imports.razor",
-              "ToolTip": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\BlazorApp1\\Components\\_Imports.razor",
-              "RelativeToolTip": "BlazorApp1\\Components\\_Imports.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-05T13:31:38.9Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "App.razor",
-              "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\BlazorApp1\\Components\\App.razor",
-              "RelativeDocumentMoniker": "BlazorApp1\\Components\\App.razor",
-              "ToolTip": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\BlazorApp1\\Components\\App.razor",
-              "RelativeToolTip": "BlazorApp1\\Components\\App.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-05T13:32:03.824Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "App.razor",
-              "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\App.razor",
-              "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\App.razor",
-              "ToolTip": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\App.razor",
-              "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\App.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-04T16:07:06.746Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "NavMenu.razor",
-              "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\BlazorApp1\\Components\\Layout\\NavMenu.razor",
-              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Layout\\NavMenu.razor",
-              "ToolTip": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\BlazorApp1\\Components\\Layout\\NavMenu.razor",
-              "RelativeToolTip": "BlazorApp1\\Components\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-05T13:31:42.513Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Receipts.razor",
-              "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Receipts.razor",
-              "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\Pages\\Receipts.razor",
-              "ToolTip": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Receipts.razor",
-              "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\Pages\\Receipts.razor",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAqwEwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-12T18:40:50.228Z",
+              "WhenOpened": "2025-08-17T10:28:04.046Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Cars.razor",
-              "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Cars.razor",
-              "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\Pages\\Cars.razor",
-              "ToolTip": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Cars.razor",
-              "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\Pages\\Cars.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ReceiptForm.razor",
+              "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\ReceiptForm.razor",
+              "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\Pages\\ReceiptForm.razor",
+              "ToolTip": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\ReceiptForm.razor",
+              "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\Pages\\ReceiptForm.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-12T19:19:49.091Z"
+              "WhenOpened": "2025-08-17T08:55:06.474Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 18,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\Layout\\NavMenu.razor",
@@ -228,81 +215,222 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ClientsService.cs",
-              "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTask.Data\\ClientsService.cs",
-              "RelativeDocumentMoniker": "SolforbTestTask.Data\\ClientsService.cs",
-              "ToolTip": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTask.Data\\ClientsService.cs",
-              "RelativeToolTip": "SolforbTestTask.Data\\ClientsService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T18:36:17.705Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Component.razor",
-              "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Component.razor",
-              "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\Pages\\Component.razor",
-              "ToolTip": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Component.razor",
-              "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\Pages\\Component.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-12T19:19:37.031Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Starship5.razor",
-              "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Starship5.razor",
-              "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\Pages\\Starship5.razor",
-              "ToolTip": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Starship5.razor",
-              "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\Pages\\Starship5.razor",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-12T19:32:00.524Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Program.cs",
-              "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Program.cs",
-              "ToolTip": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Program.cs",
-              "RelativeToolTip": "SolforbTestTaskBlazor\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-12T18:48:44.297Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "ClientForm.razor",
               "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\ClientForm.razor",
               "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\Pages\\ClientForm.razor",
               "ToolTip": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\ClientForm.razor",
               "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\Pages\\ClientForm.razor",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAADcAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAqwFQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-05T07:36:56.957Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\Pages\\Weather.razor",
+              "ToolTip": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Weather.razor",
+              "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\Pages\\Weather.razor",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-17T08:56:03.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MeasureUnitsService.cs",
+              "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTask.Data\\MeasureUnitsService.cs",
+              "RelativeDocumentMoniker": "SolforbTestTask.Data\\MeasureUnitsService.cs",
+              "ToolTip": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTask.Data\\MeasureUnitsService.cs",
+              "RelativeToolTip": "SolforbTestTask.Data\\MeasureUnitsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T18:32:04.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTask.Data\\Models\\Class1.cs",
+              "RelativeDocumentMoniker": "SolforbTestTask.Data\\Models\\Class1.cs",
+              "ToolTip": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTask.Data\\Models\\Class1.cs",
+              "RelativeToolTip": "SolforbTestTask.Data\\Models\\Class1.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAlwAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T18:34:23.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Program.cs",
+              "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Program.cs",
+              "ToolTip": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Program.cs",
+              "RelativeToolTip": "SolforbTestTaskBlazor\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBEAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T18:48:44.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClientsService.cs",
+              "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTask.Data\\ClientsService.cs",
+              "RelativeDocumentMoniker": "SolforbTestTask.Data\\ClientsService.cs",
+              "ToolTip": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTask.Data\\ClientsService.cs",
+              "RelativeToolTip": "SolforbTestTask.Data\\ClientsService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T18:36:17.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Receipts.razor",
+              "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Receipts.razor",
+              "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\Pages\\Receipts.razor",
+              "ToolTip": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Receipts.razor",
+              "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\Pages\\Receipts.razor",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T18:40:50.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Cars.razor",
+              "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Cars.razor",
+              "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\Pages\\Cars.razor",
+              "ToolTip": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Cars.razor",
+              "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\Pages\\Cars.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T19:19:49.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\BlazorApp1\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\BlazorApp1\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "BlazorApp1\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T13:31:42.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\App.razor",
+              "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\App.razor",
+              "ToolTip": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\App.razor",
+              "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-04T16:07:06.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\BlazorApp1\\Components\\App.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Components\\App.razor",
+              "ToolTip": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\BlazorApp1\\Components\\App.razor",
+              "RelativeToolTip": "BlazorApp1\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T13:32:03.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\BlazorApp1\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "BlazorApp1\\Components\\_Imports.razor",
+              "ToolTip": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\BlazorApp1\\Components\\_Imports.razor",
+              "RelativeToolTip": "BlazorApp1\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-05T13:31:38.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Component.razor",
+              "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Component.razor",
+              "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\Pages\\Component.razor",
+              "ToolTip": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Component.razor",
+              "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\Pages\\Component.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T19:19:37.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "Starship5.razor",
+              "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Starship5.razor",
+              "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\Pages\\Starship5.razor",
+              "ToolTip": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Starship5.razor",
+              "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\Pages\\Starship5.razor",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-12T19:32:00.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Clients.razor",
               "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Clients.razor",
               "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\Pages\\Clients.razor",
               "ToolTip": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\Clients.razor",
               "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\Pages\\Clients.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-04T16:02:54.223Z"
+              "WhenOpened": "2025-08-04T16:02:54.223Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
+              "Title": "ReceiptsService.cs",
+              "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTask.Data\\ReceiptsService.cs",
+              "RelativeDocumentMoniker": "SolforbTestTask.Data\\ReceiptsService.cs",
+              "ToolTip": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTask.Data\\ReceiptsService.cs",
+              "RelativeToolTip": "SolforbTestTask.Data\\ReceiptsService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T18:35:55.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StarshipPlainForm.razor",
+              "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\StarshipPlainForm.razor",
+              "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\Pages\\StarshipPlainForm.razor",
+              "ToolTip": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Pages\\StarshipPlainForm.razor",
+              "RelativeToolTip": "SolforbTestTaskBlazor\\Components\\Pages\\StarshipPlainForm.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T19:40:51.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\BlazorApp1\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "BlazorApp1\\Components\\Layout\\MainLayout.razor",
@@ -314,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "SomeComponent.razor",
               "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\BlazorApp1\\Components\\Pages\\SomeComponent.razor",
               "RelativeDocumentMoniker": "BlazorApp1\\Components\\Pages\\SomeComponent.razor",
@@ -326,7 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 26,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\BlazorApp1\\appsettings.json",
               "RelativeDocumentMoniker": "BlazorApp1\\appsettings.json",
@@ -338,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 25,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\BlazorApp1\\Program.cs",
               "RelativeDocumentMoniker": "BlazorApp1\\Program.cs",
@@ -350,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 29,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Layout\\MainLayout.razor",
               "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\Layout\\MainLayout.razor",
@@ -362,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 28,
               "Title": "_Imports.razor",
               "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\_Imports.razor",
               "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\_Imports.razor",
@@ -374,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 27,
               "Title": "Routes.razor",
               "DocumentMoniker": "D:\\YandexDisk\\voropay-common\\z_Alexey\\_\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\_Projects\\solforb-test-task\\SolforbTestTask\\SolforbTestTaskBlazor\\Components\\Routes.razor",
               "RelativeDocumentMoniker": "SolforbTestTaskBlazor\\Components\\Routes.razor",

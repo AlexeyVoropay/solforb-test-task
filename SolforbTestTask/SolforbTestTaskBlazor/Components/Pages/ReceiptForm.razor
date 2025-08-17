@@ -1,0 +1,175 @@
+﻿@page "/receipts/form/{ReceiptId:guid}"
+@using SolforbTestTask.Data
+@using SolforbTestTask.Data.Models
+@attribute [StreamRendering]
+@inject NavigationManager NavigationManager
+@inject IClientService clientService
+@inject IResourcesService resourcesService
+@inject IMeasureUnitsService measureUnitsService
+@preservewhitespace true
+
+<PageTitle>Клиент</PageTitle>
+
+<h1>Клиент</h1>
+
+<form method="post" @onsubmit="Submit" @formname="ClientForm">
+    <AntiforgeryToken />
+    <div>
+        <button @onclick="() => Click()" class="btn btn-success" name="Action" value="save">Сохранить</button>
+        @if (ReceiptId != Guid.Empty)
+        {
+            <button @onclick="() => Delete()" class="btn btn-danger" type="submit" name="Action" value="delete">Удалить</button>
+            if (client.Condition == 1)
+            {
+                <button @onclick="() => Archive()" class="btn btn-warning" type="submit" name="Action" value="archive">В архив</button>
+            }
+            if (client.Condition == 2)
+            {
+                <button @onclick="() => Archive()" class="btn btn-primary" type="submit" name="Action" value="archive">В работу</button>
+            }
+        }
+    </div>
+    <div>
+        Ресурс
+    </div>
+    <div>
+        @* <InputText @bind-Value="client!.Address" class="form-control"/> *@
+        <InputSelect @bind-Value="ResourceId" class="form-select">
+            @foreach (var resource in Resources)
+            {
+                <option value="@resource.Guid">@resource.Name</option>
+            }
+        </InputSelect>
+    </div>
+    <div>
+        Единица измерения
+    </div>
+    <div>
+        <InputSelect @bind-Value="MeasureUnitId" class="form-select">
+            @foreach (var measureUnit in MeasureUnits!)
+            {
+                <option value="@measureUnit.Guid">@measureUnit.Name</option>
+            }
+        </InputSelect>
+    </div>
+    <div>
+        Количество
+    </div>
+    <div>
+        <InputNumber @bind-Value="ReceiptItem!.Quantity" class="form-control" />
+    </div>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Ресурс</th>
+            <th>Единица измерения</th>
+            <th>Количество</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in ReceiptItems)
+        {
+            <tr>
+                <td>@item.Resource.Name</td>
+                <td>@item.MeasureUnit.Name</td>
+                <td>@item.Quantity</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+@code {
+
+    [Parameter]
+    public Guid ReceiptId { get; set; }
+
+    [SupplyParameterFromForm]
+    private Client client { get; set; } = new();
+
+    [SupplyParameterFromForm]
+    private ReceiptItemView ReceiptItem { get; set; } = new();
+
+    [SupplyParameterFromForm]
+    private Guid ResourceId { get; set; } = new();
+
+    [SupplyParameterFromForm]
+    private Guid MeasureUnitId { get; set; } = new();
+
+    [SupplyParameterFromForm]
+    public string Action { get; set; }
+
+    private List<Client>? clients = new();
+
+    private List<ReceiptItemView>? ReceiptItems = new();
+
+    private MeasureUnit[] MeasureUnits = new MeasureUnit[0];
+    private Resource[] Resources = new Resource[0];
+
+    private async Task Submit()
+    {
+        // if (Action == "save")
+        // {
+        //     var result = new Client().SaveClientAsync(client).GetAwaiter().GetResult();
+        //     NavigationManager.NavigateTo("/clients/1", true);
+        // }
+        // if (Action == "delete")
+        // {
+        //     var result = new Client().SaveClientAsync(client).GetAwaiter().GetResult();
+        //     NavigationManager.NavigateTo("/clients/1", true);
+        // }
+        // if (Action == "archive")
+        // {
+        //     client.Condition = 2;
+        //     var result = new Client().SaveClientAsync(client).GetAwaiter().GetResult();
+        //     //NavigationManager.NavigateTo("/clients/2", true);
+        //     NavigationManager.NavigateTo("/clients/1", true);
+        // }
+    }
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        // if (ReceiptId == Guid.Empty)
+        //     return;
+        //Model.Guid = ClientId.ToString();
+
+        //// Simulate asynchronous loading to demonstrate streaming rendering
+        //await Task.Delay(500);
+
+        client = await clientService.GetClientAsync(ReceiptId) ?? new();
+        MeasureUnits = await measureUnitsService.GetMeasureUnitsAsync(1);
+        Resources = await resourcesService.GetResourcesAsync(1);
+    }
+
+    public async Task Click()
+    {
+        // var result = await clientService.SaveClientAsync(client);
+        // NavigationManager.NavigateTo($"/clients/{client.Condition}", true);
+        var resource = Resources.FirstOrDefault(x => x.Guid == ResourceId);
+        var measureUnit = MeasureUnits.FirstOrDefault(x => x.Guid == MeasureUnitId);
+        ReceiptItems.Add(new ReceiptItemView()
+            {
+                MeasureUnit = measureUnit,
+                Resource = resource,
+                Quantity = ReceiptItem.Quantity
+            });
+    }
+
+    public async Task Delete()
+    {
+        var result = await clientService.DeleteClientAsync(client.Guid);
+        NavigationManager.NavigateTo($"/clients/{client.Condition}", true);
+    }
+
+    public async Task Archive()
+    {
+        client.Condition = 2;
+        //var result = await new Client().SaveClientAsync(client);
+        var result = await clientService.ChangeConditionClientAsync(client.Guid);
+        //NavigationManager.NavigateTo("/clients/2", true
+        NavigationManager.NavigateTo("/clients/1", true);
+    }
+}
